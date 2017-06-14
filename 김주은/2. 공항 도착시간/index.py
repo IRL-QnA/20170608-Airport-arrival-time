@@ -38,3 +38,6 @@ while True:
         arrival_time[0] -= 24
 
     foutput.write('\n' + digit(arrival_time[0]) + ':' + digit(arrival_time[1]))
+
+finput.close()
+foutput.close()
