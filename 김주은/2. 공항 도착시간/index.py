@@ -2,9 +2,6 @@ def parse_time(string):
     a = string.split(':')
     return [int(a[0]), int(a[1])]
 
-def read_line(file):
-    return file.readline().replace('\n', '')
-
 def digit(a):
     if a < 10:
         a = '0' + str(a)
@@ -15,13 +12,13 @@ def digit(a):
 finput = open('input.txt', 'r')
 foutput = open('output.txt', 'w')
 
-line = read_line(finput)
+line = finput.readline().rstrip()
 foutput.write(line)
 
 flight_time = parse_time(line.split(' / ')[1])
 
 while True:
-    line = read_line(finput)
+    line = finput.readline().rstrip()
 
     if not line:
         break
