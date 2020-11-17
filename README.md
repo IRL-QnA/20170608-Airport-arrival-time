@@ -1,3 +1,5 @@
+<!-- 이 레포지토리는 과거에 받은 질문내용을 정리하여 재 구성한 것입니다. -->
+
 # <2. 공항 도착시간> a program calculates arrival times for flight
 
 졸업후 입사하게 된 항공사.
